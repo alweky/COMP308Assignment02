@@ -11,21 +11,85 @@
     <link href="css/mobile.css" rel="stylesheet" />
 </head>
 <body onload="init();">
-	<div data-role="page" id="home">
-	
-		<div data-role="header">
+	<!-- Home Page Wrapper -->
+	<div data-role="page" id="home">	
+		<header data-role="header">
 			<h1>Welcome to Home Page</h1>
-		</div>
-		
-		<div data-role="content">
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" class="ui-btn-active" data-transition="slide">Home</a></li>
+					<li><a href="#projects" data-icon="star">Projects</a></li>
+					<li><a href="#services" data-icon="shop">Services</a></li>
+					<li><a href="#contacts" data-icon="mail">Contact Me</a></li>
+				</ul>
+			</div>
+		</header>		
+		<section data-role="content">
 			<p>Your Content Goes here</p>
-		</div>
-		
-		<div data-role="footer">
-		
-			<h4>CopyRight 2015</h4>
-		
-		</div>
+		</section>		
+		<footer data-role="footer">		
+			<h4>CopyRight 2015</h4>		
+		</footer>
+	</div>
+	<!-- Projects Page Wrapper -->
+	<div data-role="page" id="projects">	
+		<header data-role="header">
+			<h1>Welcome to Home Page</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home"  data-transition="slide">Home</a></li>
+					<li><a href="#projects" data-icon="star" class="ui-btn-active">Projects</a></li>
+					<li><a href="#services" data-icon="shop">Services</a></li>
+					<li><a href="#contacts" data-icon="mail">Contact Me</a></li>
+				</ul>
+			</div>
+		</header>		
+		<section data-role="content">
+			<p>Your Content Goes here</p>
+		</section>		
+		<footer data-role="footer">		
+			<h4>CopyRight 2015</h4>		
+		</footer>
+	</div>
+	<!-- Services Page Wrapper -->
+	<div data-role="page" id="services">	
+		<header data-role="header">
+			<h1>Welcome to Home Page</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" data-transition="slide">Home</a></li>
+					<li><a href="#projects" data-icon="star">Projects</a></li>
+					<li><a href="#services" data-icon="shop" class="ui-btn-active">Services</a></li>
+					<li><a href="#contacts" data-icon="mail">Contact Me</a></li>
+				</ul>
+			</div>
+		</header>		
+		<section data-role="content">
+			<p>Your Content Goes here</p>
+		</section>		
+		<footer data-role="footer">		
+			<h4>CopyRight 2015</h4>		
+		</footer>
+	</div>
+	<!-- Contact Page Wrapper -->
+	<div data-role="page" id="contacts">	
+		<header data-role="header">
+			<h1>Welcome to Home Page</h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" data-transition="slide">Home</a></li>
+					<li><a href="#projects" data-icon="star">Projects</a></li>
+					<li><a href="#services" data-icon="shop">Services</a></li>
+					<li><a href="#contacts" data-icon="mail" class="ui-btn-active">Contact Me</a></li>
+				</ul>
+			</div>
+		</header>		
+		<section data-role="content">
+			<p>Projects</p>
+		</section>		
+		<footer data-role="footer">		
+			<h4>CopyRight 2015</h4>		
+		</footer>
 	</div>
 	<!-- JavaScript Section -->
 	<script src="scripts/jquery-1.11.2.min.js"></script>
