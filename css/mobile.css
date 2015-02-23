@@ -1,0 +1,11 @@
+/*	app.css
+	Kevin Sau Yeung Kam
+	My Website
+	This is an css file for my website
+*/
+
+html{
+	/* gives a gradiant background */
+    background-image: url("assets/grey-white-gradient.png");
+    background-repeat: repeat-x;
+}
