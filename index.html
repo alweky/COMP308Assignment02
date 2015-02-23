@@ -56,6 +56,52 @@
 	</div>
 	<!-- Services Page Wrapper -->
 	<div data-role="page" id="services">	
+		<div data-role="panel" data-display="overlay" id="developmentPanel">
+			<h2>Software Development</h2>
+			<p>
+				I have experience using many different object oriented languages and non object oriented languages, some of these include:
+				<ul>
+					<li>Java</li>
+					<li>C#</li>
+					<li>jscript</li>
+				</ul>
+			</p>
+			<p>
+				I also have an understanding of Agile Development process
+			</p>
+			<a href="#services" class="ui-btn" data-rel="close">Close</a>
+		</div>
+		<div data-role="panel" data-display="overlay" id="webDesignPanel">
+			<h2>Web Design/Development</h2>
+			<p>
+				I have experience creating webpages. Some examples of webpages include this website, but also some below
+			</p>
+			<a href="#services" class="ui-btn" data-rel="close">Close</a>
+		</div>
+		<div data-role="panel" data-display="overlay" id="tutoringPanel">
+			<h2>Tutoring</h2>
+			<p>
+				I have over three years of tutoring and also over eight months of professional experience at Centennial College
+				<br></br>
+				Some of the subjects that I tutor, include the following (for High School):
+				<ul>
+				<li>Physics (High School)</li>
+				<li>Chemistry (Grade 11)</li>
+				<li>Mathematics (including Data Management, Calculus/Vectors)</li>
+				<li>Economics</li>
+				<li>Accounting</li>
+				</ul>
+			</p>
+			<p>
+				For College, I tutor the following subjects:
+				<ul>
+				<li>Programming (Java, C#)</li>
+				<li>Web Development (html5, css3, jscript)</li>
+				<li>Database (Oracle, MySQL, SQLServer, Access)</li>
+				</ul>
+			</p>
+			<a href="#services" class="ui-btn" data-rel="close">Close</a>
+		</div>
 		<header data-role="header">
 			<h1>Welcome to Home Page</h1>
 			<div data-role="navbar">
@@ -69,6 +115,52 @@
 		</header>		
 		<section data-role="content">
 			<p>Services Content</p>
+			<table data-role="table" id="service-table" class="ui-responsive">
+			  <thead>
+				<tr>
+				  <th data-priority="1"></th>
+				  <th data-priority="persist"><th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+					<td>
+						<a href="#developmentPanel">
+							<img src="assets/development.jpg" alt="" />
+						</a>
+					</td>
+					<td>
+						<h5>Development</h5>							
+						<p>I have experience using many different object oriented languages and non object oriented languages and an understanding of Agile Development process
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#webDesignPanel">
+							<img src="assets/webDesign.jpg" alt="" />
+						</a>
+					</td>
+					<td>
+						<h5>Web Development</h5>							
+						<p>I have experience creating webpages. Some examples of webpages include this website.
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#tutoringPanel">
+							<img src="assets/tutoring.jpg" alt="" />
+						</a>
+					</td>
+					<td>
+						<h5>Tutoring</h5>							
+						<p>I have over three years of tutoring and also over eight months of professional experience at Centennial College 
+						</p>
+					</td>
+				</tr>
+			  </tbody>
+			</table>
 		</section>		
 		<footer data-role="footer">		
 			<h4>&copy; Kevin Sau Yeung Kam 2015</h4>			

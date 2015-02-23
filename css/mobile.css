@@ -4,8 +4,17 @@
 	This is an css file for my website
 */
 
-html{
+body{
 	/* gives a gradiant background */
     background-image: url("assets/grey-white-gradient.png");
     background-repeat: repeat-x;
+	background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
 }
