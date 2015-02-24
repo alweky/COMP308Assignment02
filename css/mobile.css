@@ -1,17 +1,9 @@
-/*	app.css
-	Kevin Sau Yeung Kam
-	My Website
-	This is an css file for my website
-*/
-
-body{
+body {
 	/* gives a gradiant background */
     background-image: url("assets/grey-white-gradient.png");
     background-repeat: repeat-x;
-	background-position:center center;
-    background-attachment:scroll;
-    background-size:100% 100%;
 }
+
 .ui-page {
     background: transparent;
 }
@@ -19,12 +11,30 @@ body{
     background: transparent;
 }
 
-/*gives a new font for these elements */
-h1,h2 {
-    font-family: "Arial Black", Gadget, sans-serif;
+#projectLogo{
+	border: 2px solid;
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
 }
 
-#projectLogo{
+#projectSS{
+	height: 225px;
+	width: 150px;
+}
+
+#projectASS{
+	height: 150px;
+	width: 225px;
+}
+
+#homeHeader {
+    color: #111111;
+    text-decoration: none;
+}
+
+#myPic {
+	height: 70%;
+	width: 70%;
 	border: 2px solid;
 	border-radius: 25px;
 	box-shadow: 10px 10px 5px #888888;
