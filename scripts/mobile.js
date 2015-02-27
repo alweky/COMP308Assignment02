@@ -27,6 +27,27 @@ $(function () {
 		autoSize: true,
 		height: 450
     });
+	$("#my_sliderAdvancedSpaceWars").excoloSlider({
+        mouseNav: false,
+        interval: 2000,
+        playReverse: true,
+		autoSize: true,
+		height: 450
+    });
+	$("#my_sliderSolarSystem").excoloSlider({
+        mouseNav: false,
+        interval: 2000,
+        playReverse: true,
+		autoSize: true,
+		height: 450
+    });
+	$("#my_sliderJumper").excoloSlider({
+        mouseNav: false,
+        interval: 2000,
+        playReverse: true,
+		autoSize: true,
+		height: 450
+    });
 });
  
 function init(){	
